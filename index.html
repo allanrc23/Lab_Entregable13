@@ -4,45 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Deportes</title>
 </head>
 <body>
     <header class="navbar">
-        <a href="#">Inicio</a>
-        <div class="submenu">
-            <button class="btn">Deportes</button>
-            <div class="contenido">
-                <a href="#">Baloncesto</a>
-                <a href="#">Futbol</a>
-                <a href="#">Voleibol</a>
-                <a href="#">Beisbol</a>
-            </div>
-        </div>
-        <a href="#">Servicios</a>
-        <a href="#">Contactenos</a>
-        <div class="redes">
-            <a href="https://facebook.com" target="_blank">Facebook</a>
-            <a href="https://x.com/" target="_blank">X</a>
-            <a href="https://instagram.com" target="_blank">Instagram</a>
-        </div>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li class="submenu">
+                <a href="#">Deportes</a>
+                <ul class="contenido">
+                    <li><a href="#">Baloncesto</a></li>
+                    <li><a href="#">Futbol</a></li>
+                    <li><a href="#">Voleibol</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contactenos</a></li>
+        </ul>
+        
+        <ul class="redes">
+            <li><a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="https://x.com/" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+            <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
+        </ul>
     </header>
     <main>
         <h1>Deportes</h1>
         <article class="baloncesto" id="baloncesto">
-            <h2>¿Que es el Baloncesto?</h2>
-            <p>Es un deporte de equipo, jugado entre dos conjuntos de cinco jugadores cada uno en cuatro períodos de cuartos de diez minutos cada uno.</p>
+            <div class="img_Dep">
+                <img src="Baloncesto.png" alt="baloncesto">
+            </div>
+            <div class="dep_Contenido">
+                <h2>¿Que es el Baloncesto?</h2>
+                <p>Es un deporte de equipo, jugado entre dos conjuntos de cinco jugadores cada uno en cuatro períodos de cuartos de diez minutos cada uno.</p>
+            </div>
         </article>
         <article class="futbol" id="futbol">
-            <h2>¿Que es el Futbol?</h2>
-            <p>Es un deporte de equipo jugado entre dos conjuntos de once jugadores cada uno, mientras los árbitros se ocupan de que las normas se cumplan correctamente.</p>
+            <div class="img_Dep">
+                <img src="Futbol.png" alt="Futbol">
+            </div>
+            <div class="dep_Contenido">
+                <h2>¿Que es el Futbol?</h2>
+                <p>Es un deporte de equipo jugado entre dos conjuntos de once jugadores cada uno, mientras los árbitros se ocupan de que las normas se cumplan correctamente.</p>
+            </div>
         </article>
         <article class="voley" id="voley">
-            <h2>¿Que es el Voleibol?</h2>
-            <p>Es un deporte que se juega con una pelota y en el que dos equipos, integrados por seis jugadores cada uno, se enfrentan sobre una área de juego separada por una red central.</p>
-        </article>
-        <article class="beisbol" id="beisbol">
-            <h2>¿Que es el Bisbol?</h2>
-            <p>Es un deporte de equipo jugado por dos equipos de nueve jugadores cada uno.</p>
+            <div class="img_Dep">
+                <img src="Voleibol.png" alt="Voleibol">
+            </div>
+            <div class="dep_Contenido">
+                <h2>¿Que es el Voleibol?</h2>
+                <p>Es un deporte que se juega con una pelota y en el que dos equipos, integrados por seis jugadores cada uno, se enfrentan sobre una área de juego separada por una red central.</p>
+            </div>
         </article>
     </main>
 </body>
