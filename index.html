@@ -28,6 +28,13 @@
             <li><a href="https://x.com/" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
             <li><a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a></li>
         </ul>
+        <form action="" method="post">
+            <label for="usuario">Usuario: </label>
+            <input type="text" name="usuario" id="usuario">
+            <label for="clave">Contraseña: </label>
+            <input type="password" name="clave" id="clave">
+            <input type="button" value="Inicar">
+        </form>
     </header>
     <main>
         <h1>Deportes</h1>
@@ -59,6 +66,21 @@
             </div>
         </article>
     </main>
+
+    <h2>Contactanos</h2>
+
+    <form action="" method="post" class="formulario" onsubmit="validarFormulario()">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" name="apellido">
+        <label for="correo">Correo: </label>
+        <input type="email" id="correo" name="correo">
+        <label for="descripcion" class="etiqueta">Deporte preferido y ¿que te gusta de el?</label>
+        <textarea name="descripcion" id="descripcion" cols="35" rows="10"></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 <footer>
     <p>&copy; 2025 Sitio de Deportes</p>
